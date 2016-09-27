@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Astronomy</title>
+		<link rel="stylesheet" type="text/css" href="style/f.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="script/f.js"></script>
+	</head>
+	<body>
+		<div class="stage">
+			<div class="question-card current" data-question="0" id="question_0">
+				<p class="question">What's your name?</p>
+				<div class="option-group">
+					<input id="name" class="name" placeholder="Enter your name"/>
+					<br/>
+					<button id="go">Start</button>
+				</div>
+			</div>
+
+			<div class="question-card " data-question="1" id="question_1">
+				<p class="question">Closest galaxy to our?</p>
+				<div class="option-group">
+					<ul class="option-list">
+						<li class="option" data-option="1"><span>Andromeda</span></li>
+						<li class="option" data-option="2"><span>Comet Galaxy</span></li>
+						<li class="option" data-option="3"><span>Sunflower Galaxy</span></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="question-card" data-question="2" id="question_2">
+				<p class="question">Closest star to earth?</p>
+				<div class="option-group">
+					<ul class="option-list">
+						<li class="option" data-option="1"><span>Sun</span></li>
+						<li class="option" data-option="2"><span>Siriusr</span></li>
+						<li class="option" data-option="3"><span>Vega</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="question-card" data-question="3" id="question_3">
+				<p class="question">Closest planet to earth?</p>
+				<div class="option-group">
+					<ul class="option-list">
+						<li class="option" data-option="1"><span>Mars</span></li>
+						<li class="option" data-option="2"><span>Venus</span></li>
+						<li class="option" data-option="3"><span>Mercury</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="question-card" data-question="4" id="question_4">
+				<p class="question">Cloest planetry nebula name?</p>
+				<div class="option-group">
+					<ul class="option-list">
+						<li class="option" data-option="1"><span>Ghost of Jupiter</span></li>
+						<li class="option" data-option="2"><span>Ring Nebula</span></li>
+						<li class="option" data-option="3"><span>Helix Nebula</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="question-card" data-question="5" id="question_5">
+				<p class="question">5. Closest blackhole to our?</p>
+				<div class="option-group">
+					<ul class="option-list">
+						<li class="option" data-option="1"><span>Sagittarius A*</span></li>
+						<li class="option" data-option="2"><span>Holmberg 15A</span></li>
+						<li class="option" data-option="3"><span>Messier 84</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="question-card" data-question="6" id="question_6">
+				<p class="question result-head">Hi <span></span>, your results</p>
+				<div class="option-group">
+					<div class="bar">
+						<div class="correct"></div>
+					</div>
+				</div>
+				<h2>Your answers</h2>
+				
+				<p class="review-question">1. Closest star to our?</p>
+				<p class="answer"></p>
+
+				<p class="review-question">2. Closest galaxy to our?</p>
+				<p class="answer"> </p>
+
+				<p class="review-question">3. Closest planet to our?</p>
+				<p class="answer"></p>
+
+				<p class="review-question">4. Cloest planetry nebula name?</p>
+				<p class="answer"></p>
+
+				<p class="review-question">5. Closest blackhole to our?</p>
+				<p class="answer"></p>
+
+
+			</div>
+		</div>
+	</body>
+</html>
